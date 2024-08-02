@@ -1,7 +1,7 @@
 import React, { StrictMode, Suspense } from 'react';
 import type { JSXElementConstructor, ReactElement } from 'react';
 import { act, fireEvent, render, waitFor } from '@testing-library/react';
-import { createStore, getDefaultStore } from 'jotai/experimental';
+import { createStore, getDefaultStore } from 'jotai';
 import { Provider, useAtom } from 'jotai/react';
 import { atom } from 'jotai/vanilla';
 import { useAtomsDevtools } from 'jotai-devtools/utils';

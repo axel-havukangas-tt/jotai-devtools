@@ -1,6 +1,6 @@
 import React, { JSXElementConstructor, StrictMode, useState } from 'react';
 import { act, fireEvent, render, waitFor } from '@testing-library/react';
-import { createStore } from 'jotai/experimental';
+import { createStore } from 'jotai';
 import { Provider, useAtom, useAtomValue } from 'jotai/react';
 import { atom } from 'jotai/vanilla';
 import { useAtomsSnapshot } from 'jotai-devtools/utils';

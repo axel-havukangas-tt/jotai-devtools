@@ -4,13 +4,9 @@ import type {
   WritableAtom,
   createStore as createStoreV1,
 } from 'jotai/vanilla';
-import type {
-  INTERNAL_DevStoreRev4,
-  INTERNAL_PrdStore,
-} from 'jotai/vanilla/store2';
 
 export type StoreV1 = ReturnType<typeof createStoreV1>;
-export type StoreV2 = INTERNAL_DevStoreRev4 & INTERNAL_PrdStore;
+export type StoreV2 = ReturnType<typeof createStoreV1>;
 
 export type Store = StoreV1 | StoreV2;
 

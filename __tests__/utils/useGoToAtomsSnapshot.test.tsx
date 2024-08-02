@@ -6,7 +6,7 @@ import React, {
   useRef,
 } from 'react';
 import { fireEvent, render, waitFor } from '@testing-library/react';
-import { getDefaultStore } from 'jotai/experimental';
+import { getDefaultStore } from 'jotai';
 import { Provider, useAtom } from 'jotai/react';
 import { atom } from 'jotai/vanilla';
 import type { Atom } from 'jotai/vanilla';

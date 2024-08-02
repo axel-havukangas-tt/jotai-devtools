@@ -1,7 +1,7 @@
 import React from 'react';
 import { MantineProvider } from '@mantine/core';
 import { Meta, StoryObj } from '@storybook/react';
-import { getDefaultStore } from 'jotai/experimental';
+import { getDefaultStore } from 'jotai';
 import { Provider } from 'jotai/react';
 import { DevTools, DevToolsProps, useAtomsDevtools } from '../../../';
 import { Playground } from './Playground';
